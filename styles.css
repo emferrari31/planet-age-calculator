@@ -1,0 +1,68 @@
+body {
+    background-image: url("spaceImage.jpg");
+    display: flex;
+    justify-content: center;
+    padding-top: 20rem;
+    font-family: monospace;
+    font-size: 30px;
+    text-shadow: 2px 2px #000000;
+    color: white;
+    margin: 10rem;
+}
+.space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    font-weight: bold;
+}
+
+.main {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 3rem;
+    align-items: center;
+    line-height: 2;
+}
+
+.ageInput {
+    height: 30px;
+    font-size: 25px;
+}
+
+.output {
+    color: black;
+    /*font-weight: bold;*/
+    font-size: 30px;
+    border: 3px solid white;
+    height: 5rem;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+input[type="radio"] {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+
+@media (min-width: 600px) {
+    body {
+        padding-top: 0.1rem;
+        flex-direction: column;
+    }
+    header {
+        text-align:center;
+        padding-bottom: 4rem;
+    }
+}
